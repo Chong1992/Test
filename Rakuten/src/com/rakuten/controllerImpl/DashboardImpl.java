@@ -7,7 +7,8 @@ import com.rakuten.service.UploadCSV;
 import com.rakuten.serviceImpl.UploadCSVImpl;
 
 public class DashboardImpl implements Dashboard {
-
+	
+	// It must be clarified that i was not able to create the servlet for HttpSession and Class for ModelAndView... due to the time constraint
 		
 	@Override
 	@RequestMapping(value="/dashboardcompany", method = RequestMethod.GET)
